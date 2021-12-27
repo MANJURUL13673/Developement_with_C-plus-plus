@@ -3,7 +3,8 @@
 <!--Position: Software Engineer -->
 <!--Company: Frontier Semiconductor Bangladesh Ltd. -->
 # Development_with_C-plus-plus
-We will learn C++ programming from Scratch to Advance. We will go through the procedure of basic C++ programming to Desktop Application Development. That's why we try to do our coding in VS (Visual Studio). Let's start!!!!!!
+We will learn C++ programming from Scratch to Advance. We will go through the procedure of basic C++ programming to Desktop Application Development. That's why we try to do our coding in VS (Visual Studio).  
+Let's start!!!!!!
 
 <!--Setup Environment -->
 ## Chapter 1 Setup Visual Studio
@@ -44,3 +45,15 @@ After open the VS, maybe you will see 4 options in the right side(VS 2019). Pres
 17. Dynamic-Link Library with exports (DLL)
 
 #### 2.1.1 Empty Project
+- There is no starting file.
+- No application frameworks.
+- That have no projects.
+- This might be preferable in cases where you want to construct your solution and projects from scratch.
+
+#### 2.1.2 Console App
+- A computer program designed to be used via a text-only computer interface.
+- No graphical user interface means no pointing device or no visualize interface.
+- CMD in windows is a best example.
+
+#### 2.1.3 CMake Project
+ 
