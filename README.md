@@ -9,12 +9,14 @@ Let's start!!!!!!
 <!--Setup Environment -->
 ## Chapter 1 Setup Visual Studio
 
+<!--Visual Studio Download links -->
 ### 1.1 Download Visual Studio
 
 Download visual studio from the links as you require:
 https://visualstudio.microsoft.com/vs/older-downloads/  
 In this repository, I personally will use vs2019 version. 
 
+<!--Installation of Visual Studio -->
 ### 1.2 Install Visual Studio
 
 - Installation is simple like the other SW. Press the install button. It automatically download it's require file from the internet. Maybe it will download > 1.5GB.  
@@ -23,6 +25,7 @@ In this repository, I personally will use vs2019 version.
 <!--Create new project -->
 ## Chapter 2 Create a New Project
 
+<!--Description of different type of project -->
 ### 2.1 Different Type of Project
 
 After open the VS, maybe you will see 4 options in the right side(VS 2019). Pressing the **Create a new project** button, you will look a different window with different project type.  
@@ -56,4 +59,11 @@ After open the VS, maybe you will see 4 options in the right side(VS 2019). Pres
 - CMD in windows is a best example.
 
 #### 2.1.3 CMake Project
- 
+Before understand the CMake Project, Let's understand makefile.  
+A makefile is a special file, containing shell commands, that you create and name makefile (or Makefile depending upon the system). A makefile that works well in one shell may not execute properly in another shell. The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Make (or rather a Makefile) is a buildsystem - it drives the compiler and other build tools to build your code in cross platform.  
+- CMake is a generator of buildsystems. It can produce Makefiles.
+- CMake is a way to make your project buildsystem-independent as well.
+- It builds modern, cross-platform C++ apps that don't depend on  .sln or .vcxproj files.
+
+
+
