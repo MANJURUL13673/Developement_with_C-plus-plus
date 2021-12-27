@@ -9,6 +9,6 @@
 
 ### 1.1 Download Visual Studio
 
-Download visual studio from the links as you require:
-https://visualstudio.microsoft.com/vs/older-downloads/
-In this repository, I personally will use vs2019 version.
+Download visual studio from the links as you require:  
+https://visualstudio.microsoft.com/vs/older-downloads/  
+In this repository, I personally will use vs2019 version.  
