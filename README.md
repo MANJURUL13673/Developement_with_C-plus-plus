@@ -66,19 +66,19 @@ Let's discuss the most usable project properties-
 <!--Make File create project -->
 #### 2.1.3 CMake Project
 Before understand the CMake Project, Let's understand makefile.  
-A makefile is a special file, containing shell commands, that you create and name makefile (or Makefile depending upon the system). A makefile that works well in one shell may not execute properly in another shell. The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Make (or rather a Makefile) is a buildsystem - it drives the compiler and other build tools to build your code in cross platform.  
+*A makefile is a special file, containing shell commands, that you create and name makefile (or Makefile depending upon the system).* A makefile that works well in one shell may not execute properly in another shell. The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Make (or rather a Makefile) is a buildsystem - it drives the compiler and other build tools to build your code in cross platform.  
 - CMake is a generator of buildsystems. It can produce Makefiles.
 - CMake is a way to make your project buildsystem-independent as well.
 - It builds modern, cross-platform C++ apps that don't depend on  .sln or .vcxproj files.
 
 <!--Windows Desktop Application -->
 #### 2.1.4 Windows Desktop Application
-We understand from the topic name that it simply able to makes windows desktop application. Basically it ables to create Win32 program. Win32 program is an executable application (EXE) written in C or C++, using calls to the Win32 API to create a graphical user interface.  
+We understand from the topic name that it simply able to makes windows desktop application. Basically it ables to create Win32 program. *Win32 program is an executable application (EXE) written in C or C++, using calls to the Win32 API to create a graphical user interface.*  
 
 <!--Microsoft Foundation Class Library Application -->
 #### 2.1.5 MFC App
 MFC full meaning is microsoft foundation class library. Like the 2.1.4 it also use for create complex desktop application.  
-Microsoft Foundation Class is a class library in C++ that encapsulates certain portions of the Windows API in order to make it easier for programmers to build lightweight code.
+*Microsoft Foundation Class is a class library in C++ that encapsulates certain portions of the Windows API in order to make it easier for programmers to build lightweight code.*
 
 <!--Dynamic Link Library -->
 #### 2.1.6 Dynamic Link Library(DLL)
@@ -91,7 +91,18 @@ A static library or statically-linked library is a set of routines, external fun
 <!--ATL Project -->
 #### 2.1.8 ATL Project
 Before going to ATL Project let's discuss what is COM.  
-COM is, simply put, a method for sharing binary code across different applications and languages. Let's know about ATL Project.
+*COM is, simply put, a method for sharing binary code across different applications and languages.* Let's know about ATL Project.
 ATL Projects provides Active Template Library (ATL) which helps to create small, fast Component Object Model(COM).
+
+### 2.2 Comparison of Projects
+
+#### 2.2.1 Windows API vs MFC
+
+|Topics|Windows API|MFC|
+|---|---|---|
+|Full Form|Windows API(Application Programming Interface)|MFC(Microsoft Foundation Class Library)|
+|Description|Also known as Win32. Must necessary things for creating program in Windows environment.|MFC is a framework encapsulate certain portion of the Windows API to make easier to the programmers.|
+|Pros or Cons|1. Problem to use Win32 SDK that you need to manually write code for everything.  2. This lead to errors in code.|1. MFC is composed of functions that are most commonly used by programmers.  2.This lead easy to use.|  
+
 
 
