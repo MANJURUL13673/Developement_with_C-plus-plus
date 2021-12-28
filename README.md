@@ -50,17 +50,20 @@ After open the VS, maybe you will see 4 options in the right side(VS 2019). Pres
 
 Let's discuss the most usable project properties-   
 <!--Some Project Description -->
+<!--Empty Project -->
 #### 2.1.1 Empty Project
 - There is no starting file.
 - No application frameworks.
 - That have no projects.
 - This might be preferable in cases where you want to construct your solution and projects from scratch.
 
+<!--Console Application -->
 #### 2.1.2 Console App
 - A computer program designed to be used via a text-only computer interface.
 - No graphical user interface means no pointing device or no visualize interface.
 - CMD in windows is a best example.
 
+<!--Make File create project -->
 #### 2.1.3 CMake Project
 Before understand the CMake Project, Let's understand makefile.  
 A makefile is a special file, containing shell commands, that you create and name makefile (or Makefile depending upon the system). A makefile that works well in one shell may not execute properly in another shell. The makefile contains a list of rules. These rules tell the system what commands you want to be executed. Make (or rather a Makefile) is a buildsystem - it drives the compiler and other build tools to build your code in cross platform.  
@@ -68,6 +71,27 @@ A makefile is a special file, containing shell commands, that you create and nam
 - CMake is a way to make your project buildsystem-independent as well.
 - It builds modern, cross-platform C++ apps that don't depend on  .sln or .vcxproj files.
 
-#### 2.1.4 Windows Desktop Wizard
+<!--Windows Desktop Application -->
+#### 2.1.4 Windows Desktop Application
+We understand from the topic name that it simply able to makes windows desktop application. Basically it ables to create Win32 program. Win32 program is an executable application (EXE) written in C or C++, using calls to the Win32 API to create a graphical user interface.  
+
+<!--Microsoft Foundation Class Library Application -->
+#### 2.1.5 MFC App
+MFC full meaning is microsoft foundation class library. Like the 2.1.4 it also use for create complex desktop application.  
+Microsoft Foundation Class is a class library in C++ that encapsulates certain portions of the Windows API in order to make it easier for programmers to build lightweight code.
+
+<!--Dynamic Link Library -->
+#### 2.1.6 Dynamic Link Library(DLL)
+It's a chunk of code that is a completely separate module. A program can request that the dll file be hooked up to, and it can call procedures in the file by name.
+
+<!--Static Library -->
+#### 2.1.7 Static Library
+A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing an object file and a stand-alone executable.
+
+<!--ATL Project -->
+#### 2.1.8 ATL Project
+Before going to ATL Project let's discuss what is COM.  
+COM is, simply put, a method for sharing binary code across different applications and languages. Let's know about ATL Project.
+ATL Projects provides Active Template Library (ATL) which helps to create small, fast Component Object Model(COM).
 
 
