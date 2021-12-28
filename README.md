@@ -29,6 +29,7 @@ In this repository, I personally will use vs2019 version.
 ### 2.1 Different Type of Project
 
 After open the VS, maybe you will see 4 options in the right side(VS 2019). Pressing the **Create a new project** button, you will look a different window with different project type.  
+<!--Project Type -->
 1. Empty Project
 2. Console App
 3. CMake Project
@@ -45,8 +46,10 @@ After open the VS, maybe you will see 4 options in the right side(VS 2019). Pres
 14. MFC ActiveX Control
 15. Native Unit Test Project
 16. Google Test
-17. Dynamic-Link Library with exports (DLL)
+17. Dynamic-Link Library with exports (DLL)  
 
+Let's discuss the most usable project properties-   
+<!--Some Project Description -->
 #### 2.1.1 Empty Project
 - There is no starting file.
 - No application frameworks.
@@ -65,5 +68,6 @@ A makefile is a special file, containing shell commands, that you create and nam
 - CMake is a way to make your project buildsystem-independent as well.
 - It builds modern, cross-platform C++ apps that don't depend on  .sln or .vcxproj files.
 
+#### 2.1.4 Windows Desktop Wizard
 
 
