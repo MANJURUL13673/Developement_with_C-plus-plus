@@ -104,5 +104,25 @@ ATL Projects provides Active Template Library (ATL) which helps to create small,
 |Description|Also known as Win32. Must necessary things for creating program in Windows environment.|MFC is a framework encapsulate certain portion of the Windows API to make easier to the programmers.|
 |Pros or Cons|1. Problem to use Win32 SDK that you need to manually write code for everything.</br>2. This lead to errors in code.|1. MFC is composed of functions that are most commonly used by programmers.</br>2.This lead easy to use.|  
 
+#### 2.2.2 COM vs DLL
+**COM(component-object-model)**
+The Component Object Model (COM) is a binary standard that defines how objects are created and destroyed and, most importantly, how they interact with each other. As long as applications follow the COM standard, different applications from different sources can communicate with each other across process boundaries. People use COM to make communication with other applications easy.  
+
+Because *COM is a binary standard, it is language independent.* You do not have to use C++ to implement COM. You can use any language that supports tables of function pointers.  
+
+**DLL (dynamic-link library)**
+A file that contains one or more functions that are compiled, linked, and stored separately from the processes that use them. The operating system maps the DLLs into the address space of the calling process when the process is starting, or while it is running. So, *DLL will language, comiler and version dependent.*  
+
+We can say that a COM object can be implemented as a EXE or a DLL.
+
+#### 2.2.3 Static Library vs DLL
+|Topics|Static Library|DLL(Dynamic-Library)|
+|---|---|---|
+|Files|Static libraries gather object files into one|Dynamics exist as separate files outside the executable|
+|Files Adding Time|Files link before it becomes and executable binary means in the compilation time|These files do not added on compilation time|
+|Compilation|Static library compile again and again|DLL does not need to compile again and again|
+|Spped|Faster compiling time and speed|Less speed than static library|
+|Memory|It may become large files as it have a copy at executable|Mmeory saving when ruuning multiple library files because a copy of the files create outside the executable file|
+|Loading times|Less loading times|Comparetively loading times|
 
 
