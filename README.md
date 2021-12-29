@@ -123,3 +123,40 @@ After successfully create a project you will see
 - In right side solution explorer show all the files list use in the project. 
 - In the bottom section will show you the error and the successful compilation of the code.
 
+## Chapter 4 Run the First Program
+Let's delete all the things write in the code editor. We will write the code again by understanding and run the program. Let's understand!!!!
+
+### 4.1 Change the filename
+In the **solution explorer** you will see a option **source files**. Expand the options, you see the file with .cpp extesnion. Click on the name and change the name as you wish with keeping the .cpp extension. I chnage the name to **helloworld.cpp**.
+
+### 4.2 Write your first program
+Write the code in the code editor - 
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout<<"Hello World!!!"<<endl;
+	return 0;
+}
+```
+
+### 4.3 Run the Program
+- Press the **Build** option from the top menu. It will expand and show some more options. Press the **Build Solution** options. Then you will see the compilation result in bottom output window. If the code is successfully compiled then it shows -  
+*===Build: 1 succeeded failed, 0 up-to-date 0 skipped ===*
+- Then press the **Debug** option from the top menu and select **Start Debugging** or **Start without debugging** options. 
+- This opens a console and show you output **Hello World!!!**.
+
+Congratulations!!! You write your first program.
+
+### 4.4 Understand the Program
+**#include<iostream>**  
+
+**using namespace std**  
+
+**int main()**  
+
+**cout**  
+
+**return 0**  
