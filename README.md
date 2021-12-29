@@ -83,7 +83,7 @@ ATL Projects provides Active Template Library (ATL) which helps to create small,
 |---|---|---|
 |Full Form|Windows API(Application Programming Interface)|MFC(Microsoft Foundation Class Library)|
 |Description|Also known as Win32. Must necessary things for creating program in Windows environment.|MFC is a framework encapsulate certain portion of the Windows API to make easier to the programmers.|
-|Pros or Cons|1. Problem to use Win32 SDK that you need to manually write code for everything.</br>2. This lead to errors in code.|1. MFC is composed of functions that are most commonly used by programmers.</br>2.This lead easy to use.|  
+|Pros or Cons|1. In Win32 SDK, you need to manually write code for everything. So you have more independency.</br>2. This lead to errors in code also.|1. MFC is composed of functions that are most commonly used by programmers.</br>2.This lead easy to use.|  
 
 #### 2.2.2 COM vs DLL
 **COM(component-object-model)**
