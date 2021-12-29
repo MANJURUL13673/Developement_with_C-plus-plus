@@ -28,27 +28,8 @@ In this repository, I personally will use vs2019 version.
 <!--Description of different type of project -->
 ### 2.1 Different Type of Project
 
-After open the VS, maybe you will see 4 options in the right side(VS 2019). Pressing the **Create a new project** button, you will look a different window with different project type.  
-<!--Project Type -->
-1. Empty Project
-2. Console App
-3. CMake Project
-4. Windows Desktop Wizard
-5. Windows Desktop Application
-6. Blank Solution
-7. MFC App
-8. Dynamic Link Library (DLL)
-9. Static Library
-10. Shared Items Project
-11. ATL Project
-12. MFC Dynamic-Link Library
-13. Makefile Project
-14. MFC ActiveX Control
-15. Native Unit Test Project
-16. Google Test
-17. Dynamic-Link Library with exports (DLL)  
-
-Let's discuss the most usable project properties-   
+After open the VS, maybe you will see 4 options in the right side(VS 2019). Pressing the **Create a new project** button, you will look a different window with different project type. Different project type use for different task.   
+Let's discuss the most usable project type-   
 <!--Some Project Description -->
 <!--Empty Project -->
 #### 2.1.1 Empty Project
