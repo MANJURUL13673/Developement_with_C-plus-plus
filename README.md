@@ -23,7 +23,7 @@ In this repository, I personally will use vs2019 version.
 - Maybe take a restart to the PC after installation complete.  
 
 <!--Create new project -->
-## Chapter 2 Create a New Project
+## Chapter 2 VS Projects
 
 <!--Description of different type of project -->
 ### 2.1 Different Type of Project
@@ -78,7 +78,6 @@ ATL Projects provides Active Template Library (ATL) which helps to create small,
 ### 2.2 Comparison of Projects
 
 #### 2.2.1 Windows API vs MFC
-
 |Topics|Windows API|MFC|
 |---|---|---|
 |Full Form|Windows API(Application Programming Interface)|MFC(Microsoft Foundation Class Library)|
@@ -86,12 +85,12 @@ ATL Projects provides Active Template Library (ATL) which helps to create small,
 |Pros or Cons|1. In Win32 SDK, you need to manually write code for everything. So you have more independency.</br>2. This lead to errors in code also.|1. MFC is composed of functions that are most commonly used by programmers.</br>2.This lead easy to use.|  
 
 #### 2.2.2 COM vs DLL
-**COM(component-object-model)**
+**COM(component-object-model)**  
 The Component Object Model (COM) is a binary standard that defines how objects are created and destroyed and, most importantly, how they interact with each other. As long as applications follow the COM standard, different applications from different sources can communicate with each other across process boundaries. People use COM to make communication with other applications easy.  
 
 Because *COM is a binary standard, it is language independent.* You do not have to use C++ to implement COM. You can use any language that supports tables of function pointers.  
 
-**DLL (dynamic-link library)**
+**DLL (dynamic-link library)**  
 A file that contains one or more functions that are compiled, linked, and stored separately from the processes that use them. The operating system maps the DLLs into the address space of the calling process when the process is starting, or while it is running. So, *DLL will language, comiler and version dependent.*  
 
 We can say that a COM object can be implemented as a EXE or a DLL.
@@ -106,4 +105,21 @@ We can say that a COM object can be implemented as a EXE or a DLL.
 |Memory|It may become large files as it have a copy at executable|Mmeory saving when ruuning multiple library files because a copy of the files create outside the executable file|
 |Loading times|Less loading times|Comparetively loading times|
 
+## Chapter 3 New Project in VS
+Now we are learning only the basics of C++ programming. So we need a environment where we can give input and also we can see the output. As now we are in basics, so we go with the console application. Becaus it provides the simplest way to give input and see output. Let's start with creating a console application!!!!!  
+
+### 3.1 Create a New Project
+1. Open the visual Studio 2019 or any other version you prefer.
+2. There are 4 options in the right side of the open window. Press the **Creat a new project** option.
+3. Select the **Console App** option.
+4. Press the **Next** button in the bottom right side.
+5. Give a project name under the project name option.
+6. Select the location where you want to save the project.
+7. Press the **Create** buuton in the bottom right side.
+
+### 3.2 Understand VS project
+After successfully create a project you will see  
+- A code editor with some basic code, where you can modify the code as your wish.
+- In right side solution explorer show all the files list use in the project. 
+- In the bottom section will show you the error and the successful compilation of the code.
 
