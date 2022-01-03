@@ -161,9 +161,15 @@ Now to sum it is must need things to write C++ program.
 *Note: The preprocessors are the directives, which give instructions to the compiler to preprocess the information before actual compilation starts.*  
 
 **using namespace std**  
+When we run a program to print something, “using namespace std” says if you find something that is not declared in the current scope go and check std. using namespace std; are used. It is because computer needs to know the code for the cout, cin functionalities and it needs to know which namespace they are defined.  
 
 **main**  
+The main function serves as the starting point for program execution.  
 
 **cout**  
+Show the output to the console. It is define in the iostream header.  
 
 **return 0**  
+Main function has no return, that's the reason it return value 0.  
+
+## Drive in Basic C++ Programming  
