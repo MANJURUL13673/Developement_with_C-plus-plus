@@ -151,11 +151,18 @@ int main()
 Congratulations!!! You write your first program.
 
 ### 4.4 Understand the Program
-**#include<iostream>**  
+**include iostream**  
+"#" indicates that the following line is a preprocessor directive and should be processed by the preprocessor before compilation by the compiler.  
+So, "#include" is a preprocessor directive that tells the preprocessor to include header files in the program.  
+"< >" indicate the start and end of the file name to be included.  
+"iostream" is a header file that contains functions for input/output operations (cin and cout).  
+Now to sum it is must need things to write C++ program.  
+
+*Note: The preprocessors are the directives, which give instructions to the compiler to preprocess the information before actual compilation starts.*  
 
 **using namespace std**  
 
-**int main()**  
+**main**  
 
 **cout**  
 
