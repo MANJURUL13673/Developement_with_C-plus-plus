@@ -189,3 +189,21 @@ Let's discuss the most uses data types -
 |Character|1|char|P/N|
 |Unsigned Character|1|unsigned char|P/N|
 |Boolean|1 byte|bool|1 or 0|
+
+### 5.2 I/0
+In C++ programming, cin and cout use for Input and Output. 
+Also there is a way to take input like c `scanf_s`. But one thing that you need to specify the character and character array size.
+
+### 5.3 Operator
+|Operator Name|Sign|
+|---|---|
+|Addition|+|
+|Subtraction|-|
+|Multiplication|*|
+|Division|/|
+|%|Modulo Operation|
+|Increment Operator|++|
+|Decrement Operator|--|
+|Assignment Operator|=, +=, -=, *=, /=, %=|
+|Relational Operator|==, !=, >, <, >=, <=|
+|Logical Operator| &&, ||, !|
