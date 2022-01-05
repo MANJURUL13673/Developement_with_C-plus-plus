@@ -173,3 +173,19 @@ Show the output to the console. It is define in the iostream header.
 Main function has no return, that's the reason it return value 0.  
 
 ## Chapter - 5 Basic C++ Programming - 1 
+### 5.1 Data Type & Memory
+Let's discuss the most uses data types -  
+|Data Type|Memory Size(Byte)|Representation|Note|
+|---|---|---|---|
+|Integer|4|int|P/N|
+|Signed Integer|4|signed int|Same as Normal Integer|
+|Unsigned Integer|4|unsigned int|P|
+|Short Integer|2|short int|P/N|
+|Long Integer|4/8|long int|P/N|
+|Long Long Integer|8|long long int|P/N|
+|Float|4|float|P/N, 23 bit value,8 bits exponent|
+|Double|8|double|P/N, 52 bit value, 11 bits exponent|
+|Long Double|12|long double|P/N, 64 bit value, 15 bit exponent|
+|Character|1|char|P/N|
+|Unsigned Character|1|unsigned char|P/N|
+|Boolean|1 byte|bool|1 or 0|
